@@ -1,0 +1,18 @@
+﻿{
+  "executionSettings": {
+    "runInCloud": "true",
+    "defaultBrowser": "chrome",
+    "browserVersion": "92",
+    "platformName": "Windows 10",
+    "arguments": [
+      {
+        "selenium_version": "3.13.0",
+        "logName": "{runName}.{timestamp}.log",
+        "console": "true",
+        "network": "true",
+        "timezone": "UTC+03:00",
+        "resolution": "1280x800"
+      }
+    ]
+  }
+}

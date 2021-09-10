@@ -1,0 +1,7 @@
+https://www.lambdatest.com/blog/xunit-testing-tutorial/
+https://www.lambdatest.com/blog/locators-in-selenium-webdriver-with-examples/
+https://www.lambdatest.com/learning-hub/selenium-locators
+https://todomvc.com/
+https://github.com/tastejs/todomvc
+https://www.automatetheplanet.com/underrated-webdriver-locator-xpath/
+https://www.automatetheplanet.com/most-exhaustive-xpath-locators-cheat-sheet/

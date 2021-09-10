@@ -1,0 +1,12 @@
+https://www.lambdatest.com/blog/xunit-testing-tutorial/
+https://www.lambdatest.com/blog/locators-in-selenium-webdriver-with-examples/
+https://www.lambdatest.com/learning-hub/selenium-locators
+https://todomvc.com/
+https://github.com/AutoFixture/AutoFixture
+https://xunit.net/docs/shared-context.html
+https://xunit.net/docs/running-tests-in-parallel
+https://www.automatetheplanet.com/adapter-design-pattern/
+https://www.automatetheplanet.com/template-method-design-pattern/
+https://www.automatetheplanet.com/simple-factory-design-pattern-anonymous-reverse-proxy/
+https://www.automatetheplanet.com/improved-facade-design-pattern/
+https://www.lambdatest.com/blog/page-object-model-tutorial-selenium-csharp/

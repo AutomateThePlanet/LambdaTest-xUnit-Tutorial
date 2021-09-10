@@ -1,0 +1,5 @@
+https://www.lambdatest.com/blog/geolocation-testing-through-vpn-on-lambdatest/
+https://www.lambdatest.com/support/docs/selenium-automation-capabilities/#hide-capabilities
+https://www.lambdatest.com/capabilities-generator/
+https://github.com/AutomateThePlanet/Design-Patterns-for-High-Quality-Automated-Tests-CSharp-Edition
+https://www.automatetheplanet.com/framework-extensibility-highlight-elements/

@@ -1,0 +1,12 @@
+https://www.lambdatest.com/blog/xunit-testing-tutorial/
+https://github.com/xunit/samples.xunit
+https://github.com/rosolko/WebDriverManager.Net
+https://chromedriver.chromium.org/downloads
+https://github.com/mozilla/geckodriver/releases
+https://github.com/operasoftware/operachromiumdriver/releases
+https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=c-sharp
+https://docs.microsoft.com/en-us/dotnet/api/system.datetime.tostring?view=net-5.0
+https://docs.microsoft.com/en-us/dotnet/core/testing/selective-unit-tests?pivots=xunit
+https://lambdatest.github.io/sample-todo-app/
