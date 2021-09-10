@@ -2,6 +2,7 @@ using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
@@ -21,8 +22,27 @@ namespace XUnitFirstSeleniumProject.Version3
 
         public TodoTestsWithPageObjects()
         {
-            new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
-            _driver = new ChromeDriver();
+            ////new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
+            ////_driver = new ChromeDriver();
+
+            string userName = Environment.GetEnvironmentVariable("LT_USERNAME", EnvironmentVariableTarget.Machine);
+            string accessKey = Environment.GetEnvironmentVariable("LT_ACCESSKEY", EnvironmentVariableTarget.Machine);
+            var options = new ChromeOptions();
+            options.BrowserVersion = "93.0";
+            options.AddAdditionalCapability("user", userName, true);
+            options.AddAdditionalCapability("accessKey", accessKey, true);
+            options.AddAdditionalCapability("build", "PageObjectsInCloud", true);
+            options.AddAdditionalCapability("name", "Purchase Burgers", true);
+            options.PlatformName = "Windows 10";
+
+            options.AddAdditionalCapability("selenium_version", "3.13.0", true);
+            options.AddAdditionalCapability("console", true, true);
+            options.AddAdditionalCapability("network", true, true);
+            options.AddAdditionalCapability("timezone", "UTC+03:00", true);
+
+
+            _driver = new RemoteWebDriver(new Uri($"https://{userName}:{accessKey}@hub.lambdatest.com/wd/hub"), options);
+            _driver.Manage().Window.Maximize();
             _webDriverWait = new WebDriverWait(_driver, TimeSpan.FromSeconds(WAIT_FOR_ELEMENT_TIMEOUT));
             _actions = new Actions(_driver);
             _homePage = new HomePage(_driver, _webDriverWait, _actions);
